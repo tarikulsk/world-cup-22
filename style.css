@@ -67,11 +67,11 @@ header p {
     padding-top: 50px;
     padding-left: 5%;
     transition: 1s;
-    animation: hero 3s linear infinite;
+    animation: header 3s linear infinite;
 
 }
 
-@keyframes hero {
+@keyframes header {
     0% {
         margin-left: 0;
     }
