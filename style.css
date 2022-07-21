@@ -1,0 +1,305 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+@media screen {}
+
+
+
+
+body {
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* header section style start */
+
+header {
+    align-items: center;
+    height: 646px;
+    width: 1321px;
+    background-color: black;
+    margin-top: 3%;
+    margin-left: 8%;
+    margin-right: 10%;
+    border: 1px solid black;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center
+}
+
+h1 {
+    font-size: 70px;
+    color: aliceblue;
+}
+
+.header-a {
+    padding-left: 10%;
+    /* padding-top: 10%; */
+    color: aliceblue;
+    padding-right: 5%;
+}
+
+header p {
+    margin-bottom: 5%;
+}
+
+.link-button {
+    text-decoration: none;
+    padding: 10px 40px;
+    background-image: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+    border-radius: 5px;
+    font-weight: 900;
+    color: white;
+}
+
+
+
+.header-img {
+
+    height: 645px;
+    padding-top: 50px;
+    padding-left: 5%;
+    transition: 1s;
+    animation: right-to-left 3s linear infinite;
+
+}
+
+@keyframes right-to-left {
+    0% {
+        margin-left: 0;
+    }
+
+    50% {
+        margin-left: -10px;
+        transition: 0.5s;
+    }
+
+    100% {
+        margin-left: 0;
+    }
+}
+
+
+/* header section style start */
+
+/* menu section style start */
+.menu {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    margin-top: 3%;
+    margin-left: 8%;
+    margin-right: 10%;
+
+
+
+}
+
+/* aside section style start  */
+aside {
+    height: 312px;
+    width: 310px;
+    background-color: black;
+    border: 1px;
+    border-radius: 10px;
+    color: white;
+
+}
+
+ul {
+    list-style: none;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    padding-top: 10%;
+    text-align: center;
+}
+
+li {
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10px;
+    width: auto;
+    height: 60px;
+    margin-bottom: 30px;
+    font-weight: 1000;
+    padding-top: 10px;
+
+}
+
+li a {
+    color: rgb(8, 8, 8);
+    font-size: 2em;
+
+
+}
+
+li:hover {
+    background-color: #FBA24F;
+
+
+}
+
+
+/* aside section style end  */
+
+.menu-button {
+
+    border: 1px solid white;
+    border-radius: 5px;
+    justify-content: center;
+    background-color: white;
+    text-align: center;
+    font-weight: 1000;
+    font-size: 30px;
+
+
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding-left: 15px;
+    margin-left: 15px;
+    margin-right: 10%;
+}
+
+.item-a {
+    border: 1px solid silver;
+    border-radius: 10px;
+    width: 313px;
+    height: 362px;
+
+
+}
+
+.item {
+
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+}
+
+
+.button {
+    margin-top: 5px;
+    text-decoration: none;
+    border: 1px solid rgb(44, 44, 44);
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+
+}
+
+h3 {
+    margin-top: 15px;
+}
+
+.icon {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+/* menu section style end */
+
+/* footer style start */
+.footer {
+    width: 100%;
+    height: 444px;
+    background-color: rgb(21, 21, 22);
+    margin-top: 80px;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.footer-menu {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-content: space-evenly;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    padding-top: 20px;
+}
+
+.footer-text {
+    color: white;
+}
+
+footer hr {
+    width: 80%;
+    border: none;
+    margin: auto;
+    border-top: 0.5px gray solid;
+}
+
+/* footer style start */
+
+/* website-2 menu style start  */
+.flag-menu {
+    display: grid;
+    grid-template-columns: 25%, 75%;
+    grid-template-columns: 25% 75%;
+    margin-top: 8%;
+    margin-left: 8%;
+    margin-right: 10%;
+}
+
+.container-a {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding-left: 15px;
+    margin-left: 15px;
+    margin-right: 10%;
+
+}
+
+.flag-a {
+    border: 1px solid silver;
+    border-radius: 10px;
+    width: 312px;
+    height: 242px;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.flag {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr)
+}
+
+/* website-2 menu style end  */
+
+/* tab view style start */
+@media (min-width: 580px) and (max-width: 850px) {}
+
+/* tab view style end */
