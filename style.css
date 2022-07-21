@@ -66,11 +66,12 @@ header p {
     animation: header 3s linear infinite;
 
 }
-.active{
 
-        background-image: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
-              color: white;
-  
+.active {
+
+    background-image: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+    color: white;
+
 }
 
 
@@ -353,10 +354,11 @@ h2 {
 
     .header-img {
 
-        height: 278px;
+        height: 300px;
         width: auto;
         padding-top: 50px;
         padding-left: 25%;
+        margin-top: 45px;
         transition: 1s;
         animation: header 3s linear infinite;
 
